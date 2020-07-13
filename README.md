@@ -1,0 +1,2 @@
+# fncosmosdbtrigger-py
+fncosmosdbtrigger-py
