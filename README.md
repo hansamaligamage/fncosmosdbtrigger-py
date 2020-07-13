@@ -46,7 +46,8 @@ def main(documents: func.DocumentList) -> str:
     APIKey = "";
     senderId = "";
     
-    data = {'user_id': userId, 'api_key' : APIKey, 'sender_id' : senderId, 'to' : mobile, 'message' : message} 
+    data = {'user_id': userId, 'api_key' : APIKey, 'sender_id' : senderId, 'to' : mobile, 
+      'message' : message} 
 
     result = requests.post(url, data = data)
     logging.info(result)
